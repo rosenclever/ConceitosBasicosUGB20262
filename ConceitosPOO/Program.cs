@@ -17,3 +17,12 @@ Console.WriteLine("Dados da agencia: " );
 Console.WriteLine("Numero: " + agencia.Numero);
 Console.WriteLine("Nome: " + agencia.Nome);
 Console.WriteLine("Telefone: " + agencia.Telefone);
+Console.WriteLine("Informe o número da conta:");
+long numero;
+Console.WriteLine($"Informe o saldo inicial da conta {numero}:");
+decimal saldoInicial;
+//imprimir os dados da conta
+//depositar 1000 na conta
+//exibir saldo
+//sacar 500 da conta
+//exibir saldo
