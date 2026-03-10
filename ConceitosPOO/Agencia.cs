@@ -24,7 +24,17 @@ namespace ConceitosPOO
             {
                 _telefone = value;
             }
-                 
+        }
+        public int Numero { 
+            get => _numero; 
+            private set
+            {
+                _numero = value;
+            } 
+        }
+        public Agencia(int numero)
+        {
+            _numero = numero;
         }
     }
 }
