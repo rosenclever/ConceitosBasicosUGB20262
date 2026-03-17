@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceitosBasicos", "Conceit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceitosPOO", "ConceitosPOO\ConceitosPOO.csproj", "{1BE47CF5-323D-4BEA-88A9-904102CB1B3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConceitosPoo", "TestConceitosPoo\TestConceitosPoo.csproj", "{2B865DF8-1D3A-4027-A64F-FF9D6264440C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1BE47CF5-323D-4BEA-88A9-904102CB1B3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BE47CF5-323D-4BEA-88A9-904102CB1B3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BE47CF5-323D-4BEA-88A9-904102CB1B3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B865DF8-1D3A-4027-A64F-FF9D6264440C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B865DF8-1D3A-4027-A64F-FF9D6264440C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B865DF8-1D3A-4027-A64F-FF9D6264440C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B865DF8-1D3A-4027-A64F-FF9D6264440C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
