@@ -43,9 +43,16 @@ namespace ConceitosPOO
         public void Saque(decimal valor) 
         {
             if (valor > 0)
-                this.Saldo += valor; //saldo = saldo + valor;
+                this.Saldo -= valor; //saldo = saldo + valor;
             else
                 throw new ArgumentException("O valor tem que ser positivo");
+        }
+
+        public void Transferencia(Conta contaDestino, decimal valorTransferencia)
+        {
+            if (valorTransferencia <= 0) throw new ArgumentException("O valor a ser transferido deve ser superior a zero.");
+            this.Saque(valorTransferencia);
+            contaDestino.Deposito(valorTransferencia);
         }
     }
 }
