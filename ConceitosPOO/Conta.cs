@@ -8,8 +8,22 @@ namespace ConceitosPOO
 {
     public class Conta
     {
+        /* 
+         * efetue o relacionamento de conta com agencia
+         * faça com que uma conta possa ser criada ou 
+         * informando o numero da  conta e seu saldo ou
+         * informando o numero da conta, seu saldo e seu titular.
+         * tota conta deve obrigatoriamente pertencer a uma agencia.
+         */
         private long _numero;
         private decimal _saldo;
+        private Cliente _titular;
+
+        public Cliente Titular
+        {
+            get { return _titular; }
+            set { _titular = value; }
+        }
 
         public Conta(long numero, decimal saldo)
         {

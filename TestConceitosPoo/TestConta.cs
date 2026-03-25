@@ -45,6 +45,19 @@ namespace TestConceitosPoo
         }
 
         [TestMethod]
+        public void TestSaqueValorMenorZero()
+        {
+            //cenário
+            decimal saldoInicial = 1000;
+            decimal valorSaque = -500;
+            Conta conta = new Conta(1111, saldoInicial);
+
+            //ação e verificação
+            Assert.ThrowsException<ArgumentException>(() => conta.Saque(valorSaque));
+            
+        }
+
+        [TestMethod]
         public void TestTransferencia()
         {
             //cenario
